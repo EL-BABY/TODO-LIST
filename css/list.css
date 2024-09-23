@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/pencil-checking-off-golden-todo-600nw-2171134529.webp');
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    
+
+}
+
+.t1{
+    margin: 35px;
+}
+    
+
+.search-bar {
+    width: 80%; 
+    height: 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    padding-left: 5px;
+}
+.button{
+  padding: 0px 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+  .lista{
+    margin-top: 15px;
+    
+
+  }
+  .task-list {
+    width: 220px;
+    position: relative;
+    right: 5px;
+    flex-direction: column;
+
+}
+.task-list li {
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+    display: flex; 
+    background-color: gray;
+    font-size: 1.1rem;
+}
+
+.task-list button {
+    width: 12%;
+    height: 30px;
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+}
